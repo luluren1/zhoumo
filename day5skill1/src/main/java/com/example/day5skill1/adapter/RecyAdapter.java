@@ -50,6 +50,7 @@ public class RecyAdapter extends RecyclerView.Adapter<RecyAdapter.ViewHolder> {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 list.get(i).setVisiable(isChecked);
+                //法国红酒看的法国海军
             }
         });
         viewHolder.cb.setChecked(list.get(i).isVisiable());
